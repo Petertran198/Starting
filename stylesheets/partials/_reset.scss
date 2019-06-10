@@ -1,4 +1,3 @@
-/* Partials */
 /* reset browser styles */
 html,
 body,
@@ -80,10 +79,10 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
 article,
@@ -97,32 +96,27 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1.2;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    line-height: 1.2;
+    box-sizing: border-box;
 }
 
 ol {
-  padding-left: 1.4em;
-  list-style: decimal;
+    padding-left: 1.4em;
+    list-style: decimal;
 }
 
 ul {
-  padding-left: 1.4em;
-  list-style: square;
+    padding-left: 1.4em;
+    list-style: square;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* end reset browser styles */
-body {
-  font-family: "Source Sans Pro", sans-serif;
-}
-/*# sourceMappingURL=main.css.map */

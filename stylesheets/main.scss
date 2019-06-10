@@ -1,12 +1,7 @@
-@import 'partials/colors';
+/* Partials */
+@import 'partials/reset';
+@import 'partials/variables'; 
 
 body{
-    color: $red;
-    h1{
-        color: $orange;
-    }
-   
-}
-h2{
-    color: $blue;
+    font-family: $font-body;
 }
